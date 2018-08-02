@@ -1,0 +1,48 @@
+changes with angular 6.
+1) CLI --
+2) always prefix # after bundle so that it will always refreshed after new deployment.
+3) vs code features - 
+AutoFileName  - to give fully qualified path
+VScode-Icons  -  to give icons for files.
+angular v6 snippets by john pappa
+
+1) New project
+npm init -y
+new file index.html
+new file tsconfig.json
+new file polyfills.ts
+new file vendor.ts -- for vendor types
+new file webpack.config.js
+new folder config 
+new file webpack.common.js
+new file webpack.dev.config.js in config
+new file webpack.prod.config.js in config
+new folder src
+in src folder  add main.ts
+in src folder  new folder app
+in src->app->root.module.ts
+webpacks have  (entry, extention , loader , plugin(how to inject  bundle, how to optimize code, ) , optimization , output)
+npm install --save rxjs zone.js @angular/core @angular/common @angular/compiler @angular/platform-browser @angular/platform-browser-dynamic core-js
+npm install --save-dev webpack webpack-cli webpack-dev-server webpack-merge
+npm install --save-dev typescript@2.7
+npm install --save-dev rimraf
+npm install --save-dev html-loader angular2-template-loader awesome-typescript-loader
+npm install --save-dev html-webpack-plugin
+npm install --save-dev @types/node@8
+
+
+^ - install if any compatible version available 
+~ - next compatible version
+
+-- for bootstrap ->  npm install --save jquery bootstrap@3
+--Read CSS modules .
+--CSS encapsulation can  be native ,emulated, none , shadow dom,
+
+
+(bind-) : bind- is for one way binding bind-text =msg  OR [text] = msg
+on- : on- for events on-click =eventname OR [click] = "event"
+bindon-ngmodel or [()] : two way
+ng-content : to send html to child 
+
+
+
